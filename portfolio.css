@@ -1,0 +1,85 @@
+.header{
+    background-color:purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    color: white;
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 22px;
+
+}
+.main-left{
+    width: 300px;
+}
+.main-left p{
+    color: grey;
+}
+.main-right{
+    width: 400px;
+    position: relative;
+}
+.box1{
+position: absolute;
+width: 100px;
+height: 90px;
+background-color: red;
+border-radius: 10px;
+margin-top: -150px;
+margin-left: -50px;
+}
+.box2{
+ position: absolute;
+width: 80px;
+height: 80px;
+background-color: green;
+border-radius: 50%;
+margin-top: -300px;
+margin-left: 370px;
+}
+
+
+
+.main-parent{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-parent img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.main-parent button{
+    background-color: rgb(231, 174, 68);
+    border: 10px black;
+    border-radius: 5px ;
+    color: black;
+    font-size: 15px;
+    padding-top:5PX;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.footer{
+    background-color:purple;
+    height: 100px;
+    padding-top: 12px;
+    margin-top: 50px;
+   /* text-align: center; */
+   gap: 70px;
+   font-size: 25px;
+}
+.icon{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer p{
+    color: gray;
+    font-size: medium;
+    text-align: center;
+}
